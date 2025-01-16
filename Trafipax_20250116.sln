@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35222.181
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Trafipax_20250116", "Trafipax_20250116.csproj", "{C1F0D766-2C3F-4D07-B692-CAD731025D34}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C1F0D766-2C3F-4D07-B692-CAD731025D34}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1F0D766-2C3F-4D07-B692-CAD731025D34}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C1F0D766-2C3F-4D07-B692-CAD731025D34}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C1F0D766-2C3F-4D07-B692-CAD731025D34}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {83ADA295-A281-4505-A3C0-C0DC6A1D8894}
+	EndGlobalSection
+EndGlobal
