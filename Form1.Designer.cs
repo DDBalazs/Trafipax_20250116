@@ -30,9 +30,9 @@
         {
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.tsgyors = new System.Windows.Forms.ToolStripMenuItem();
+            this.tsrogzit = new System.Windows.Forms.ToolStripMenuItem();
             this.tsstat = new System.Windows.Forms.ToolStripMenuItem();
             this.tsexit = new System.Windows.Forms.ToolStripMenuItem();
-            this.tsrogzit = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -57,11 +57,19 @@
             this.tsgyors.Size = new System.Drawing.Size(93, 20);
             this.tsgyors.Text = "Gyorshajtások";
             // 
+            // tsrogzit
+            // 
+            this.tsrogzit.Name = "tsrogzit";
+            this.tsrogzit.Size = new System.Drawing.Size(118, 22);
+            this.tsrogzit.Text = "Rögzítés";
+            this.tsrogzit.Click += new System.EventHandler(this.tsrogzit_Click);
+            // 
             // tsstat
             // 
             this.tsstat.Name = "tsstat";
             this.tsstat.Size = new System.Drawing.Size(71, 20);
             this.tsstat.Text = "Statisztika";
+            this.tsstat.Click += new System.EventHandler(this.tsstat_Click);
             // 
             // tsexit
             // 
@@ -69,13 +77,6 @@
             this.tsexit.Size = new System.Drawing.Size(56, 20);
             this.tsexit.Text = "Kilépés";
             this.tsexit.Click += new System.EventHandler(this.tsexit_Click);
-            // 
-            // tsrogzit
-            // 
-            this.tsrogzit.Name = "tsrogzit";
-            this.tsrogzit.Size = new System.Drawing.Size(180, 22);
-            this.tsrogzit.Text = "Rögzítés";
-            this.tsrogzit.Click += new System.EventHandler(this.tsrogzit_Click);
             // 
             // Form1
             // 

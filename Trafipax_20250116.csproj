@@ -64,6 +64,7 @@
     <Compile Include="frmstatisztika.Designer.cs">
       <DependentUpon>frmstatisztika.cs</DependentUpon>
     </Compile>
+    <Compile Include="Gyorshajtas.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form1.resx">
