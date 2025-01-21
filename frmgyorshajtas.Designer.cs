@@ -47,7 +47,7 @@
             this.label1.AutoSize = true;
             this.label1.Location = new System.Drawing.Point(32, 35);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(69, 13);
+            this.label1.Size = new System.Drawing.Size(88, 17);
             this.label1.TabIndex = 0;
             this.label1.Text = "Rendszám:";
             // 
@@ -56,7 +56,7 @@
             this.label2.AutoSize = true;
             this.label2.Location = new System.Drawing.Point(32, 115);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(153, 13);
+            this.label2.Size = new System.Drawing.Size(193, 17);
             this.label2.TabIndex = 1;
             this.label2.Text = "Sebességhatár: 100 km/h";
             // 
@@ -65,7 +65,7 @@
             this.label3.AutoSize = true;
             this.label3.Location = new System.Drawing.Point(32, 189);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(125, 13);
+            this.label3.Size = new System.Drawing.Size(159, 17);
             this.label3.TabIndex = 2;
             this.label3.Text = "Büntetési kategória: ";
             // 
@@ -74,7 +74,7 @@
             this.lbkategoria.AutoSize = true;
             this.lbkategoria.Location = new System.Drawing.Point(198, 189);
             this.lbkategoria.Name = "lbkategoria";
-            this.lbkategoria.Size = new System.Drawing.Size(96, 13);
+            this.lbkategoria.Size = new System.Drawing.Size(121, 17);
             this.lbkategoria.TabIndex = 3;
             this.lbkategoria.Text = "Nincs kategória";
             // 
@@ -83,7 +83,7 @@
             this.label5.AutoSize = true;
             this.label5.Location = new System.Drawing.Point(446, 115);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(93, 13);
+            this.label5.Size = new System.Drawing.Size(119, 17);
             this.label5.TabIndex = 4;
             this.label5.Text = "Mért sebesség:";
             // 
@@ -92,16 +92,16 @@
             this.label6.AutoSize = true;
             this.label6.Location = new System.Drawing.Point(446, 189);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(115, 13);
+            this.label6.Size = new System.Drawing.Size(147, 17);
             this.label6.TabIndex = 5;
             this.label6.Text = "Büntetés összege: ";
             // 
             // lbbuntetes
             // 
             this.lbbuntetes.AutoSize = true;
-            this.lbbuntetes.Location = new System.Drawing.Point(567, 189);
+            this.lbbuntetes.Location = new System.Drawing.Point(590, 189);
             this.lbbuntetes.Name = "lbbuntetes";
-            this.lbbuntetes.Size = new System.Drawing.Size(29, 13);
+            this.lbbuntetes.Size = new System.Drawing.Size(36, 17);
             this.lbbuntetes.TabIndex = 6;
             this.lbbuntetes.Text = "0 Ft";
             // 
@@ -122,15 +122,15 @@
             this.txrendszam.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
             this.txrendszam.Location = new System.Drawing.Point(107, 32);
             this.txrendszam.Name = "txrendszam";
-            this.txrendszam.Size = new System.Drawing.Size(100, 20);
+            this.txrendszam.Size = new System.Drawing.Size(100, 23);
             this.txrendszam.TabIndex = 8;
             this.txrendszam.TextChanged += new System.EventHandler(this.txrendszam_TextChanged);
             // 
             // txmertseb
             // 
-            this.txmertseb.Location = new System.Drawing.Point(545, 112);
+            this.txmertseb.Location = new System.Drawing.Point(570, 112);
             this.txmertseb.Name = "txmertseb";
-            this.txmertseb.Size = new System.Drawing.Size(100, 20);
+            this.txmertseb.Size = new System.Drawing.Size(100, 23);
             this.txmertseb.TabIndex = 9;
             this.txmertseb.TextChanged += new System.EventHandler(this.txmertseb_TextChanged);
             // 
@@ -148,9 +148,9 @@
             // 
             // frmgyorshajtas
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 17F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(685, 366);
+            this.ClientSize = new System.Drawing.Size(739, 366);
             this.Controls.Add(this.btexit);
             this.Controls.Add(this.txmertseb);
             this.Controls.Add(this.txrendszam);

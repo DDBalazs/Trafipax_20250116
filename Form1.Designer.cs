@@ -30,14 +30,15 @@
         {
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.tsgyors = new System.Windows.Forms.ToolStripMenuItem();
+            this.tsrogzit = new System.Windows.Forms.ToolStripMenuItem();
             this.tsstat = new System.Windows.Forms.ToolStripMenuItem();
             this.tsexit = new System.Windows.Forms.ToolStripMenuItem();
-            this.tsrogzit = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
             // menuStrip1
             // 
+            this.menuStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.tsgyors,
             this.tsstat,
@@ -45,7 +46,7 @@
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Padding = new System.Windows.Forms.Padding(7, 2, 0, 2);
-            this.menuStrip1.Size = new System.Drawing.Size(933, 24);
+            this.menuStrip1.Size = new System.Drawing.Size(933, 28);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -54,32 +55,33 @@
             this.tsgyors.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.tsrogzit});
             this.tsgyors.Name = "tsgyors";
-            this.tsgyors.Size = new System.Drawing.Size(93, 20);
+            this.tsgyors.Size = new System.Drawing.Size(115, 24);
             this.tsgyors.Text = "Gyorshajtások";
-            // 
-            // tsstat
-            // 
-            this.tsstat.Name = "tsstat";
-            this.tsstat.Size = new System.Drawing.Size(71, 20);
-            this.tsstat.Text = "Statisztika";
-            // 
-            // tsexit
-            // 
-            this.tsexit.Name = "tsexit";
-            this.tsexit.Size = new System.Drawing.Size(56, 20);
-            this.tsexit.Text = "Kilépés";
-            this.tsexit.Click += new System.EventHandler(this.tsexit_Click);
             // 
             // tsrogzit
             // 
             this.tsrogzit.Name = "tsrogzit";
-            this.tsrogzit.Size = new System.Drawing.Size(180, 22);
+            this.tsrogzit.Size = new System.Drawing.Size(149, 26);
             this.tsrogzit.Text = "Rögzítés";
             this.tsrogzit.Click += new System.EventHandler(this.tsrogzit_Click);
             // 
+            // tsstat
+            // 
+            this.tsstat.Name = "tsstat";
+            this.tsstat.Size = new System.Drawing.Size(90, 24);
+            this.tsstat.Text = "Statisztika";
+            this.tsstat.Click += new System.EventHandler(this.tsstat_Click);
+            // 
+            // tsexit
+            // 
+            this.tsexit.Name = "tsexit";
+            this.tsexit.Size = new System.Drawing.Size(71, 24);
+            this.tsexit.Text = "Kilépés";
+            this.tsexit.Click += new System.EventHandler(this.tsexit_Click);
+            // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 17F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(933, 450);
             this.Controls.Add(this.menuStrip1);

@@ -121,19 +121,19 @@
   <data name="btsave.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAACIAAAAfCAIAAAANwYjmAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAS
-        cwAAEnMBjCK5BwAAAJNJREFUSEvt0lEKgCAQRdHW0nrabCu0S0oE2qgzo1B06aM+egepJUzpZxQNYdZ9
-        40oPZ/5MbpAzUzTIk3kyyI0RDPJhZIPew8hAzMpUzxEzMY0GWZl0V0vPtB+FCkx8X57oMqh8mkkMCUO9
-        BknfpjinMKjyC+SjQxi67+oMqjN0resMamIoSsMZmsRY+hlFX2JCOAAGv+eaRm8m2gAAAABJRU5ErkJg
+        cgAAEnIBXmVb4wAAAJNJREFUSEvt0kEOgCAMRFHPwnm4LCfUBRtS2ulYqomGv6zYF4zH+UqHHDzTZtxK
+        q6XVcZLPzEY+oxrJjGVkMsBIY7DxKQYDvVXGvUdviSGNBEaOjOIMfxWd6e/jFe4BkcIwW9wDIp3Bi8Aj
+        K5Ox1qlDN8SoS+cJk8OIvTGDYsbtMYNlyL8cxDIrX+wes9JmAv2LuQAGv+eaq8adkAAAAABJRU5ErkJg
         gg==
 </value>
   </data>
   <data name="btexit.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAACIAAAAfCAIAAAANwYjmAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAS
-        cwAAEnMBjCK5BwAAAJ9JREFUSEvtkksKwCAMBXuQLnv/m/UMNlAJEk3yjCIuHFw0H94U9EpLOJoAe2je
-        +/lPrqNM0CD/gWq0IHvK+HfDQXWWMRJAT6AZ12xqQBpChIrSBdUQZTSfPPMY0uQBQIeGiDmIuKbLtNnd
-        iOjyGwHScCjn1h0bX6Mlav0mjsbOsqcllgZJQXaIUQ2B7ECaXCsga/4TmMLRBDiaAEs0KX24KnTMtS6P
-        2AAAAABJRU5ErkJggg==
+        cgAAEnIBXmVb4wAAAJdJREFUSEvt0sENgDAMA0AG4cn+mzEDPJAqSBvHDm1ftXglkQ8htmtKNjsYk8Uk
+        EjDnfjyPXYjpwIQHAuMV4W1JwGAJrExixqtrDr1QTF0qGQJjqiXjL2Mv/AhM4luV5BlJEpj6o/ESy5jq
+        IUz9+vUEJ2a8Rm/eTMDgLrx9BzFMC3PTgSF/B4qxi2+YM8R0zGISWUwik5gbuCp0zKdg6i8AAAAASUVO
+        RK5CYII=
 </value>
   </data>
 </root>

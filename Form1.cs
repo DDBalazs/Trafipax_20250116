@@ -27,5 +27,11 @@ namespace Trafipax_20250116
             frmgyorshajtas gyorshajtas = new frmgyorshajtas();
             gyorshajtas.ShowDialog();
         }
+
+        private void tsstat_Click(object sender, EventArgs e)
+        {
+            frmstatisztika statisztika = new frmstatisztika();
+            statisztika.ShowDialog();
+        }
     }
 }
