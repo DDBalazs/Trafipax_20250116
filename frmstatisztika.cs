@@ -77,6 +77,8 @@ namespace Trafipax_20250116
 
         private void cbkategoriak_SelectedIndexChanged(object sender, EventArgs e)
         {
+            int dbok = 0;
+            int osszeg = 0;
             if (cbkategoriak.SelectedIndex == 0)
             {
                 for (int i = 0; i < lista.Count; i++)
@@ -85,9 +87,13 @@ namespace Trafipax_20250116
                     {
                         dgadatok.Rows.Clear();
                         dgadatok.Rows.Add(lista[i].Rendszam, lista[i].Mertseb, lista[i].Osszeg);
+                        osszeg += lista[i].Osszeg;
+                        dbok++;
                     }
                 }
-                labelek();
+                lbmeres.Text = "Mérések száma: "+dbok.ToString()+" db";
+                lbosszeg.Text = "Bírságok összege: " + osszeg.ToString() + " Ft";
+                return;
             }
             else if (cbkategoriak.SelectedIndex == 1)
             {
@@ -97,9 +103,13 @@ namespace Trafipax_20250116
                     {
                         dgadatok.Rows.Clear();
                         dgadatok.Rows.Add(lista[i].Rendszam, lista[i].Mertseb, lista[i].Osszeg);
+                        osszeg += lista[i].Osszeg;
+                        dbok++;
                     }
                 }
-                labelek();
+                lbmeres.Text = "Mérések száma: " + dbok.ToString() + " db";
+                lbosszeg.Text = "Bírságok összege: " + osszeg.ToString() + " Ft";
+                return;
             }
             else if (cbkategoriak.SelectedIndex == 2)
             {
@@ -109,9 +119,13 @@ namespace Trafipax_20250116
                     {
                         dgadatok.Rows.Clear();
                         dgadatok.Rows.Add(lista[i].Rendszam, lista[i].Mertseb, lista[i].Osszeg);
+                        osszeg += lista[i].Osszeg;
+                        dbok++;
                     }
                 }
-                labelek();
+                lbmeres.Text = "Mérések száma: " + dbok.ToString() + " db";
+                lbosszeg.Text = "Bírságok összege: " + osszeg.ToString() + " Ft";
+                return;
             }
             else if (cbkategoriak.SelectedIndex == 3)
             {
@@ -121,9 +135,13 @@ namespace Trafipax_20250116
                     {
                         dgadatok.Rows.Clear();
                         dgadatok.Rows.Add(lista[i].Rendszam, lista[i].Mertseb, lista[i].Osszeg);
+                        osszeg += lista[i].Osszeg;
+                        dbok++;
                     }
                 }
-                labelek();
+                lbmeres.Text = "Mérések száma: " + dbok.ToString() + " db";
+                lbosszeg.Text = "Bírságok összege: " + osszeg.ToString() + " Ft";
+                return;
             }
             else if (cbkategoriak.SelectedIndex == 4)
             {
@@ -133,9 +151,13 @@ namespace Trafipax_20250116
                     {
                         dgadatok.Rows.Clear();
                         dgadatok.Rows.Add(lista[i].Rendszam, lista[i].Mertseb, lista[i].Osszeg);
+                        osszeg += lista[i].Osszeg;
+                        dbok++;
                     }
                 }
-                labelek();
+                lbmeres.Text = "Mérések száma: " + dbok.ToString() + " db";
+                lbosszeg.Text = "Bírságok összege: " + osszeg.ToString() + " Ft";
+                return;
             }
             else if (cbkategoriak.SelectedIndex == 5)
             {
@@ -145,13 +167,20 @@ namespace Trafipax_20250116
                     {
                         dgadatok.Rows.Clear();
                         dgadatok.Rows.Add(lista[i].Rendszam, lista[i].Mertseb, lista[i].Osszeg);
+                        osszeg += lista[i].Osszeg;
+                        dbok++;
                     }
                 }
-                labelek();
+                lbmeres.Text = "Mérések száma: " + dbok.ToString() + " db";
+                lbosszeg.Text = "Bírságok összege: " + osszeg.ToString() + " Ft";
+                return;
             }
             else
             {
                 dgadatok.Rows.Clear();
+                lbmeres.Text = "Mérések száma: 0 db";
+                lbosszeg.Text = "Bírságok összege: 0 Ft";
+                return;
             }
         }
     }
