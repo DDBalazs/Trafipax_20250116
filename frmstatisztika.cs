@@ -14,6 +14,8 @@ namespace Trafipax_20250116
     public partial class frmstatisztika : Form
     {
         int buntetesosszeg;
+        int osszeg;
+        int dbok;
         List<Gyorshajtas> lista = new List<Gyorshajtas>();
         void betoltes()
         {
@@ -58,91 +60,148 @@ namespace Trafipax_20250116
         private void rdkategoria_CheckedChanged(object sender, EventArgs e)
         {
             cbkategoriak.Visible = true;
-            dgadatok.Rows.Clear();        
-
+            dgadatok.Rows.Clear();
+            lbosszeg.Text = "0 Ft";
+            lbmeresek.Text = "0 db";
         }
 
         private void cbkategoriak_SelectedIndexChanged(object sender, EventArgs e)
         {
             if (cbkategoriak.SelectedIndex == 0)
             {
+                dgadatok.Rows.Clear();
                 for (int i = 0; i < lista.Count; i++)
                 {
                     if (lista[i].Gyorshajtasikategoria() == 0)
                     {
                         dgadatok.Rows.Add(lista[i].Rendszam, lista[i].Mertseb, lista[i].Buntetes);
+                        osszeg += lista[i].Buntetes;
+                        dbok++;
                     }
                 }
+                lbosszeg.Text = osszeg.ToString()+" Ft";
+                lbmeresek.Text = dbok.ToString()+" db";
+                osszeg = 0;
+                dbok = 0;
             }
             else if (cbkategoriak.SelectedIndex == 1)
             {
+                dgadatok.Rows.Clear();
                 for (int i = 0; i < lista.Count; i++)
                 {
                     if (lista[i].Gyorshajtasikategoria() == 1)
                     {
                         dgadatok.Rows.Add(lista[i].Rendszam, lista[i].Mertseb, lista[i].Buntetes);
+                        osszeg += lista[i].Buntetes;
+                        dbok++;
                     }
                 }
+                lbosszeg.Text = osszeg.ToString() + " Ft";
+                lbmeresek.Text = dbok.ToString() + " db";
+                osszeg = 0;
+                dbok = 0;
             }
             else if (cbkategoriak.SelectedIndex == 2)
             {
+                dgadatok.Rows.Clear();
                 for (int i = 0; i < lista.Count; i++)
                 {
                     if (lista[i].Gyorshajtasikategoria() == 2)
                     {
                         dgadatok.Rows.Add(lista[i].Rendszam, lista[i].Mertseb, lista[i].Buntetes);
+                        osszeg += lista[i].Buntetes;
+                        dbok++;
                     }
                 }
+                lbosszeg.Text = osszeg.ToString() + " Ft";
+                lbmeresek.Text = dbok.ToString() + " db";
+                osszeg = 0;
+                dbok = 0;
             }
             else if (cbkategoriak.SelectedIndex == 3)
             {
+                dgadatok.Rows.Clear();
                 for (int i = 0; i < lista.Count; i++)
                 {
                     if (lista[i].Gyorshajtasikategoria() == 3)
                     {
                         dgadatok.Rows.Add(lista[i].Rendszam, lista[i].Mertseb, lista[i].Buntetes);
+                        osszeg += lista[i].Buntetes;
+                        dbok++;
                     }
                 }
+                lbosszeg.Text = osszeg.ToString() + " Ft";
+                lbmeresek.Text = dbok.ToString() + " db";
+                osszeg = 0;
+                dbok = 0;
             }
             else if (cbkategoriak.SelectedIndex == 4)
             {
+                dgadatok.Rows.Clear();
                 for (int i = 0; i < lista.Count; i++)
                 {
                     if (lista[i].Gyorshajtasikategoria() == 4)
                     {
                         dgadatok.Rows.Add(lista[i].Rendszam, lista[i].Mertseb, lista[i].Buntetes);
+                        osszeg += lista[i].Buntetes;
+                        dbok++;
                     }
                 }
+                lbosszeg.Text = osszeg.ToString() + " Ft";
+                lbmeresek.Text = dbok.ToString() + " db";
+                osszeg = 0;
+                dbok = 0;
             }
             else if (cbkategoriak.SelectedIndex == 5)
             {
+                dgadatok.Rows.Clear();
                 for (int i = 0; i < lista.Count; i++)
                 {
                     if (lista[i].Gyorshajtasikategoria() == 5)
                     {
                         dgadatok.Rows.Add(lista[i].Rendszam, lista[i].Mertseb, lista[i].Buntetes);
+                        osszeg += lista[i].Buntetes;
+                        dbok++;
                     }
                 }
+                lbosszeg.Text = osszeg.ToString() + " Ft";
+                lbmeresek.Text = dbok.ToString() + " db";
+                osszeg = 0;
+                dbok = 0;
             }
             else if (cbkategoriak.SelectedIndex == 6)
             {
+                dgadatok.Rows.Clear();
                 for (int i = 0; i < lista.Count; i++)
                 {
                     if (lista[i].Gyorshajtasikategoria() == 6)
                     {
                         dgadatok.Rows.Add(lista[i].Rendszam, lista[i].Mertseb, lista[i].Buntetes);
+                        osszeg += lista[i].Buntetes;
+                        dbok++;
                     }
                 }
+                lbosszeg.Text = osszeg.ToString() + " Ft";
+                lbmeresek.Text = dbok.ToString() + " db";
+                osszeg = 0;
+                dbok = 0;
             }
             else if (cbkategoriak.SelectedIndex == 7)
             {
+                dgadatok.Rows.Clear();
                 for (int i = 0; i < lista.Count; i++)
                 {
                     if (lista[i].Gyorshajtasikategoria() == 7)
                     {
                         dgadatok.Rows.Add(lista[i].Rendszam, lista[i].Mertseb, lista[i].Buntetes);
+                        osszeg += lista[i].Buntetes;
+                        dbok++;
                     }
                 }
+                lbosszeg.Text = osszeg.ToString() + " Ft";
+                lbmeresek.Text = dbok.ToString() + " db";
+                osszeg = 0;
+                dbok = 0;
             }
         }
     }

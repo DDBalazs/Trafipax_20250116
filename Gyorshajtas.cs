@@ -31,23 +31,23 @@ namespace Trafipax_20250116
             {
                 return 0;
             }
-            else if (mertseb < 120 || mertseb > 100)
+            else if (mertseb < 120 && mertseb > 100)
             {
                 return 1;
             }
-            else if (mertseb >= 120 || mertseb < 135)
+            else if (mertseb >= 120 && mertseb < 135)
             {
                 return 2;
             }
-            else if (mertseb >= 135 || mertseb < 150)
+            else if (mertseb >= 135 && mertseb < 150)
             {
                 return 3;
             }
-            else if (mertseb >= 150 || mertseb < 165)
+            else if (mertseb >= 150 && mertseb < 165)
             {
                 return 5;
             }
-            else if (mertseb >= 165 || mertseb < 180)
+            else if (mertseb >= 165 && mertseb < 180)
             {
                 return 7;
             }
